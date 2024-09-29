@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-contaier">
+
+                <i class="ri-arrow-right-s-line icon arrow"></i>
+
+                <div class="sidebar-top">
+                    <a href="#" class="logo">
+                        <i class="ri-pencil-ruler-2-line"></i>
+                        <span>Design Studio</span>
+                    </a>
+                </div>
+
+                <div class="sidebar-list">
+
+                    <a href="#" class="sidebar-link selected">
+                        <i class="ri-home-4-line"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-file-list-3-fill"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-task-line"></i>
+                        <span>Tasks</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-team-line"></i>
+                        <span>Team</span>
+                    </a>
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-settings-line"></i>
+                        <span>Settings</span>
+                    </a>
+                    
+                </div>
+
+                <div class="upgrade-container">
+                    <div class="upgrade">
+                        <h3 class="title">Upgrade to Pro</h3>
+                        <p class="description">Get 1 month free <br> and unlock</p>
+                        <button class="btn">Upgrade</button>
+                    </div>
+                </div>
+
+
+                <div class="sidebar-list">
+
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-information-line"></i>
+                        <span>Help and information</span>
+                    </a>
+                    <a href="#" class="sidebar-link red">
+                        <i class="ri-logout-circle-line"></i>
+                        <span>Logout</span>
+                    </a>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <main>
+
+            <div class="main-top">
+
+                <div class="main-top-left">
+                    <h2 class="title">Dashboard</h2>
+                    <!-- <p class="description">Hey Omid , Welcome Back ! , We Have New Feautures Here.</p> -->
+                </div>
+
+                <div class="main-top-right">
+                    <div class="input-box">
+                        <input type="text" placeholder="What Do You Looking For?">
+                        <i class="ri-search-2-line icon"></i>
+                    </div>
+
+                    <div class="theme-btn">
+                        <i class="ri-sun-line icon btn-icon"></i>
+                    </div>
+
+                    <div class="notif-btn">
+                        <i class="ri-notification-3-line icon btn-icon"></i>
+                    </div>
+
+                    <div class="user">
+                        <img src="images.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-container">
+
+                <div class="main-left">
+
+
+
+                    <div class="projects-container">
+
+                        <div class="project">
+                            <div class="project-top">
+                                <i class="ri-gallery-view project-icon"></i>
+                                <span class="small-text">Total Projects</span>
+                            </div>
+                            <div class="project-count">
+                                <h3 class="title">10,724</h3>
+                            </div>
+                            <span class="description">All The Projects You Had</span>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-top">
+                                <i class="ri-file-check-line project-icon"></i>
+                                <span class="small-text">Completed Projects</span>
+                            </div>
+                            <div class="project-count">
+                                <h3 class="title">9,832</h3>
+                            </div>
+                            <span class="description">All The Projects You Done</span>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-top">
+                                <i class="ri-file-edit-line project-icon"></i>
+                                <span class="small-text">Running Projects</span>
+                            </div>
+                            <div class="project-count">
+                                <h3 class="title">1,021</h3>
+                            </div>
+                            <span class="description">All The Projects You Are Doing</span>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div class="charts-container">
+                        <div class="section-top">
+                            <h3 class="title">Charts</h3>
+                            <div class="filter">
+                                <div class="btn-outline">
+                                    <span>This Year</span>
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="charts">
+                            <div class="col">
+                                <div class="bar" id="b1"></div>
+                                <span class="description">Jan</span>
+                            </div>
+
+                            <div class="col">
+                                <div class="bar" id="b2"></div>
+                                <span class="description">Feb</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b3"></div>
+                                <span class="description">Mar</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b4"></div>
+                                <span class="description">Apr</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b5"></div>
+                                <span class="description">May</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b6"></div>
+                                <span class="description">Jun</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b7"></div>
+                                <span class="description">July</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b8"></div>
+                                <span class="description">Aug</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b9"></div>
+                                <span class="description">Oct</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b10"></div>
+                                <span class="description">Nov</span>
+                            </div>
+                            <div class="col">
+                                <div class="bar" id="b11"></div>
+                                <span class="description">Dec</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transactions-container">
+                        <div class="section-top">
+                            <h3 class="title">Transactions</h3>
+                            <div class="filter">
+                                <div class="btn-outline">
+                                    <span>This Year</span>
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="base-container">
+                            <div class="transaction-row ts-top">
+                            <span class="small-text thin">Name</span>
+                            <span class="small-text thin">Status</span>
+                            <span class="small-text thin">Date</span>
+                        </div>
+                        
+                        <div class="transaction-row ts-container">
+
+                            <div class="transaction-col">
+                                <div class="user-list">
+    
+                                <div class="user">
+                                    <img src="images.jpg" alt="">
+                                    <span class="small-text">Omid Nikpoor</span>
+                                </div>
+    
+                                <div class="user">
+                                    <img src="images.jpg" alt="">
+                                    <span class="small-text">Omid Nikpoor</span>
+                                </div>
+    
+                                <div class="user">
+                                    <img src="images.jpg" alt="">
+                                    <span class="small-text">Omid Nikpoor</span>
+                                </div>
+    
+
+    
+                                </div>
+                            </div>
+
+                            <div class="transaction-col">
+                                <div class="status-list">
+                                    <span class="blue-text">Done</span>
+                                    <span class="blue-text">Done</span>
+                                    <span class="blue-text">Done</span>
+                                </div>
+                            </div>
+
+                       
+                            <div class="transaction-col">
+                                <div class="date-list">
+                                    <span class="info">12,10,2024</span>
+                                    <span class="info">11,10,2024</span>
+                                    <span class="info">9,10,2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+
+
+
+
+                        
+                    </div>
+                </div>
+
+                <div class="main-right">
+                    <div class="main-right-container">
+
+                        <div class="card team-review">
+                            <div class="team-card">
+
+                                <span class="blue-text">Team Review</span>
+
+                                <div class="team-info">
+                                   <h3 class="title">Project Team</h3>
+                                   <p class="description">Lorem ipsuisicing elit. Maiores voluptate n</p>
+                            </div>
+
+                            <div class="date">
+                                <span class="small-text">01 ,05 ,2024</span>
+                                <span class="info">15 Members</span>
+                               </div>
+
+                               <button class="btn-info info">See File</button>
+                            </div>
+                        </div>
+
+                         <div class="card meeting">
+                            <div class="team-card">
+
+                                <span class="blue-text">Meeting</span>
+
+                                <div class="team-info">
+                                   <h3 class="title">This Month at Iran</h3>
+                                   <p class="description">Lorem ipsum dolor sit amet consen</p>
+                            </div>
+
+                            <div class="date">
+                                <span class="small-text">16 oct</span>
+                                <span class="info">Time: 12:02</span>
+                               </div>
+
+                               <button class="btn-info info">Read More</button>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
